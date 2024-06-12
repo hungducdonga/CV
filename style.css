@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.progress-bar1 {
+    height: 30px;
+    width: 60%; /* Fixed to 50% */
+    background-color: blue;
+    text-align: center;
+    line-height: 30px; /* same as height to center text vertically */
+    color: white;
+}
+.progress-bar2 {
+    height: 30px;
+    width: 40%; /* Fixed to 50% */
+    background-color: blue;
+    text-align: center;
+    line-height: 30px; /* same as height to center text vertically */
+    color: white;
+}
+.progress-bar3 {
+    height: 30px;
+    width: 20%; /* Fixed to 50% */
+    background-color: blue;
+    text-align: center;
+    line-height: 30px; /* same as height to center text vertically */
+    color: white;
+}
+.progress-bar4 {
+    height: 30px;
+    width: 20%; /* Fixed to 50% */
+    background-color: blue;
+    text-align: center;
+    line-height: 30px; /* same as height to center text vertically */
+    color: white;
+}
+.progress-bar5 {
+    height: 30px;
+    width: 40%; /* Fixed to 50% */
+    background-color: blue;
+    text-align: center;
+    line-height: 30px; /* same as height to center text vertically */
+    color: white;
+}
+.progress-bar6 {
+    height: 30px;
+    width: 80%; /* Fixed to 50% */
+    background-color: blue;
+    text-align: center;
+    line-height: 30px; /* same as height to center text vertically */
+    color: white;
+}
+th {
+    text-align: left;  
+}
+tr > th:nth-child(2n) {
+    padding-left: 1rem;
+}
+img {
+    margin-right: 10px;
+}
