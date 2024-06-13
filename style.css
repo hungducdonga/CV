@@ -1,14 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 50px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.progress-container {
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container_left {
+    position: relative;
+    background: blue;
+    padding: 40px;
+}
+.container_right {
+    position: relative;
+
+    padding: 40px;
+}
+.progress {
     width: 100%;
     background-color: #f3f3f3;
     border-radius: 25px;
     overflow: hidden;
 }
-.progress-bar1 {
+.progress__html {
     height: 30px;
     width: 60%; /* Fixed to 50% */
     background-color: blue;
@@ -16,7 +45,7 @@ body {
     line-height: 30px; /* same as height to center text vertically */
     color: white;
 }
-.progress-bar2 {
+.progress__css {
     height: 30px;
     width: 40%; /* Fixed to 50% */
     background-color: blue;
@@ -24,7 +53,7 @@ body {
     line-height: 30px; /* same as height to center text vertically */
     color: white;
 }
-.progress-bar3 {
+.progress__js {
     height: 30px;
     width: 20%; /* Fixed to 50% */
     background-color: blue;
@@ -32,7 +61,7 @@ body {
     line-height: 30px; /* same as height to center text vertically */
     color: white;
 }
-.progress-bar4 {
+.progress__python {
     height: 30px;
     width: 20%; /* Fixed to 50% */
     background-color: blue;
@@ -40,7 +69,7 @@ body {
     line-height: 30px; /* same as height to center text vertically */
     color: white;
 }
-.progress-bar5 {
+.progress__flutter {
     height: 30px;
     width: 40%; /* Fixed to 50% */
     background-color: blue;
@@ -48,20 +77,11 @@ body {
     line-height: 30px; /* same as height to center text vertically */
     color: white;
 }
-.progress-bar6 {
+.progress__thvp {
     height: 30px;
     width: 80%; /* Fixed to 50% */
     background-color: blue;
     text-align: center;
     line-height: 30px; /* same as height to center text vertically */
     color: white;
-}
-th {
-    text-align: left;  
-}
-tr > th:nth-child(2n) {
-    padding-left: 1rem;
-}
-img {
-    margin-right: 10px;
 }
